@@ -1,0 +1,40 @@
+{
+  "name": "concretesolutions",
+  "description": "Concrete Solutions Test",
+  "version": "0.0.2",
+  "homepage": "https://github.com/zeucxb/concretesolutions",
+  "author": {
+    "name": "Eliseu Benedito Codinhoto",
+    "email": "zeucxb@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zeucxb/concretesolutions"
+  },
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha tests/**.*js"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "joi": "^9.0.4",
+    "mongoose": "^4.5.4",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "redis": "^2.6.2",
+    "strict-mode": "^0.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^2.5.3"
+  },
+  "engine": {
+    "node": ">=5.0.0"
+  }
+}
