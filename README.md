@@ -39,3 +39,8 @@ $ [sudo] npm start
 Documentei a api para facilitar a utilização:
  - Documentação disponível em [htts://localhost:3000/apidoc](htts://localhost:3000/apidoc)
  - Também deixei um arquivo para utilização no [postman](https://www.getpostman.com/), está na raiz do projeto e se chama: Api-Concrete.postman_collection.json
+
+## Online
+
+A api está disponivel online na AWS, acessivel através deste [link](http://ec2-52-67-44-150.sa-east-1.compute.amazonaws.com).
+Para ver a documentação online [clique aqui](http://ec2-52-67-44-150.sa-east-1.compute.amazonaws.com/apidoc/).
