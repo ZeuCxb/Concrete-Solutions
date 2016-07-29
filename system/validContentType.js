@@ -1,7 +1,6 @@
 module.exports = app => {
-    return (req, res, next) => {
-        console.log(req);
-        if (req.headers['content-type'] !== 'application/json') {
+    app.use((req, res, next) => {
+        if (req.method !== 'GET' && req.headers['content-type'] !== 'application/json') {
             const response = {
                 mensagem: 'Requisição inválida.'
             };
@@ -10,5 +9,5 @@ module.exports = app => {
         } else {
             next();
         }
-    };
+    });
 };

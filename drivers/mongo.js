@@ -42,6 +42,14 @@ module.exports = app => {
         });
     };
 
+    mongoDB.update = (modelName, obj, objAlteration, callback) => {
+        const model = app.models[modelName];
+
+        model.update(obj, objAlteration, (err, result) => {
+            callback(err, result);
+        });
+    };
+
 	mongoDB.find = (modelName, obj, callback) => {
         const model = app.models[modelName];
 

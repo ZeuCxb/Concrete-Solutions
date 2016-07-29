@@ -7,6 +7,12 @@ module.exports = app => {
         });
     };
 
+    db.alter = (modelName, obj, objAlteration, callback) => {
+        app.drivers.mongo.update(modelName, obj, { $set: objAlteration }, (err, response) => {
+            callback(err, response);
+        });
+    };
+
 	db.get = (modelName, obj, callback) => {
         app.drivers.mongo.find(modelName, obj, (err, response) => {
             callback(err, response);

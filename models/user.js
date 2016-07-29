@@ -76,7 +76,7 @@ User.pre('save', function (next) {
 });
 
 
-User.methods.comparesenha = function (passw, cb) {
+User.methods.comparePassword = function (passw, cb) {
     bcrypt.compare(passw, this.senha, function (err, isMatch) {
         if (err) {
             return cb(err);
