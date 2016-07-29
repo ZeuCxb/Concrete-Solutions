@@ -26,7 +26,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1469765070104,
+			"time": 1469768321368,
 			"name": "Sign In",
 			"description": "",
 			"collectionId": "d454b366-47b1-60b5-d9e1-50f744f0070a",
@@ -35,7 +35,7 @@
 		},
 		{
 			"id": "a21d0a0c-8a4c-8fc9-f60c-6147041f2d8d",
-			"headers": "Authorization: Bearer 21752e72-6764-b1c8-8b57-141592be5c80\nContent-Type: application/json\n",
+			"headers": "Authorization: Bearer 21752e72-6764-b1c8-8b57-141592be5c80\n",
 			"url": "http://localhost:3000/search/579ac0cb19675a2677cabf11",
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -46,7 +46,7 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1469766472484,
+			"time": 1469769831220,
 			"name": "Search",
 			"description": "",
 			"collectionId": "d454b366-47b1-60b5-d9e1-50f744f0070a",
@@ -66,12 +66,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1469764985203,
+			"time": 1469770602812,
 			"name": "Sign Up",
 			"description": "",
 			"collectionId": "d454b366-47b1-60b5-d9e1-50f744f0070a",
 			"responses": [],
-			"rawModeData": "{\n    \"nome\": \"Eliseu Codinhoto\",\n    \"email\": \"zeucb@gmail.com\",\n    \"senha\": \"Senha123\",\n    \"telefones\": {\n        \"numero\": \"123456789\",\n        \"ddd\": \"11\"\n    }\n}"
+			"rawModeData": "{\n    \"nome\": \"Eliseu Codinhoto\",\n    \"email\": \"zeucb@gmail.com\",\n    \"senha\": \"Senha123\",\n    \"telefones\": {\n        \"numero\": 123456789,\n        \"ddd\": 11\n    }\n}"
 		}
 	]
 }
