@@ -43,4 +43,5 @@ Documentei a api para facilitar a utilização:
 ## Online
 
 A api está disponivel online na AWS, acessivel através deste [link](http://ec2-52-67-44-150.sa-east-1.compute.amazonaws.com).
+
 Para ver a documentação online [clique aqui](http://ec2-52-67-44-150.sa-east-1.compute.amazonaws.com/apidoc/).
