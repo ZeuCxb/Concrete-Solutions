@@ -3,6 +3,8 @@ Api NodeJS - Teste Concrete Solutions
 
 Utilizei uma estrutura na qual venho trabalhando, que busca a liberdade dos modulos, reutilização e fácil manutenção. Por isso diretórios como ADAPTERS e DRIVERS (que são apenas abstrações).
 
+Essa estrutura não está totalmente pronta, a idéia é que seja reativa, mas um generator pode ser encontrado em [slush-arkos](https://github.com/ZeuCxb/slush-arkos)
+
 ## Preparando o projeto
 
 Instale o [NodeJS](https://nodejs.org/).
